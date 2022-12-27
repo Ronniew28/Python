@@ -1,0 +1,7 @@
+first_name = "Tom"
+last_name = "Jones"
+full_name = f"{first_name} {last_name}" #note the f in this line. Very important
+full_name1 = "{first_name} {last_name}"
+print(full_name)
+print(full_name1)
+print(f"Heres {full_name.title()}")
