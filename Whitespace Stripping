@@ -1,0 +1,7 @@
+phrase = ("  This is stripping whitespace   ")
+phrase.rstrip() #strip whitespace from right side
+print(phrase)
+phrase.lstrip() #strip whitespace from left side
+print(phrase)
+phrase.strip()
+print(phrase)
