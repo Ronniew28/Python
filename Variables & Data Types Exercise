@@ -1,0 +1,39 @@
+name = "Tom"
+print(f"Hi {name} how are you")
+
+#print out the name variable in different cases
+print(name.upper())
+print(name.lower())
+print(name.title())
+
+#print out the name variable in a quote
+quote = (f"{name} said 'Its not unusual'")
+print(quote)
+
+#print variables in a quote
+famous = "harry"
+print(famous)
+message = "Hello World"
+print(message)
+quote1 = (f"tell {famous} an {message} from me")
+print(quote1)
+
+#stripping names
+name1 = "Harry"
+print(f"{name1}")
+print("\tA space is inserted at the start of this line")#inserts a whitespace(tab) at the start of the line
+name2 = "Harry  "#extra whitespace at the end of the line
+print(f"{name2}")
+
+sample = '  python  '
+sample.rstrip()#remove white space from right side
+print(sample)
+
+sample.lstrip()#remove white space from left side
+print(sample)
+
+sample.strip()#remove all white space
+print(sample)
+
+#new line & tabs
+print("Code: \n\tPython\n\tJava")
