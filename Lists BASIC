@@ -1,0 +1,14 @@
+#Output the complete list
+dogs = ['Westie' , 'Golden Retriever' , 'Border Collie' , 'Labrador' ] #[] is used to define a list
+print(dogs)
+
+#Accessing Individual items. NB: The first item is Nummber 0
+print(dogs[2])
+print(dogs[0])
+
+#Access the last item in a list
+print(dogs[-1])
+
+#Entering list items into a message
+message = f"The best dog is a {dogs[1].title()}." #NB: Chain Brackets here
+print(message)
