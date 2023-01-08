@@ -1,0 +1,73 @@
+#print 3 separate dinner invites
+guests = ['Tom' , 'Dick' , 'Harry']
+message1 = f" You are invited to dinner {guests[0].title()}. "
+message2 = f" You are invited to dinner {guests[1].title()}. "
+message3 = f" You are invited to dinner {guests[2].title()}. "
+print(message1)
+print(message2)
+print(message3)
+
+#remove 1 guest from the list
+guests.remove('Dick')
+print(guests)
+
+#add replacement guest to the list
+guests.insert(1, 'Mike')
+print(guests)
+
+#print replacement messages
+message1 = f" You are invited to dinner {guests[0].title()}. "
+message2 = f" You are invited to dinner {guests[1].title()}. "
+message3 = f" You are invited to dinner {guests[2].title()}. "
+print(message1)
+print(message2)
+print(message3)
+
+print("We got a bigger table!!")
+
+#use insert() & append() to add extra guests to the list
+guests.insert(0, 'Jack')
+guests.insert(2, 'Shay')
+guests.append('Neil')
+guests.append('Eric')
+print(guests)
+
+print("Oops!! Have to cut the nummbers")
+
+out1 = guests.pop(5)
+print(f" The first to drop out is {out1.title()}") #NB: Chain brackets
+
+out2 = guests.pop(4)
+print(f" The first to drop out is {out2.title()}") #NB: Chain brackets
+
+out3 = guests.pop(3)
+print(f" The first to drop out is {out3.title()}") #NB: Chain brackets
+
+print(guests)
+
+#Update the list
+newMessage0 = f" You're still invited {guests[0].title()}. "
+newMessage1 = f" You're still invited {guests[1].title()}. "
+newMessage2 = f" You're still invited {guests[2].title()}. "
+newMessage3 = f" You're still invited {guests[3].title()}. "
+print(newMessage0)
+print(newMessage1)
+print(newMessage2)
+
+#print updated guest list
+print(guests)
+
+#removing items from the list with del
+del guests[0]
+del guests[1]
+print(guests)
+
+del guests[0]
+print(guests)
+
+del guests[0]
+print(guests)
+print("The guest list is clear")
+
+
+
