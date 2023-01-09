@@ -1,0 +1,29 @@
+names = ['Tom' , 'Dick' , 'Harry' , 'Jack' , 'Bob']
+print(names)
+
+#sort the list
+names.sort()
+print(names)
+
+#sort the list in reverse order
+names.sort(reverse=True)
+print(names)
+
+#sorted() displays list in a particular order
+print("This is the original list")
+print(names)
+
+print("And the sorted list")
+print(sorted(names))
+
+print("The original list again")
+print(names)
+
+#list in reverse order (not alphabetical)
+print("List in reverse order")
+names.reverse()
+print(names)
+
+#list length
+print("The length of the list")
+print(len(names))
