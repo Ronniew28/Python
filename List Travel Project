@@ -1,0 +1,27 @@
+#set the list
+travel = ['Spain' , 'Australia' , 'Norway' , 'France' , 'Canada']
+
+#print list as it is
+print(travel)
+
+#use the sorted() element to output the list alphabetically
+print(sorted(travel))
+
+#show list is still in original order
+print(travel)
+
+#use reverse() to change the order
+travel.reverse()
+print(travel)
+
+#use reverse() to restore the list to the original order
+travel.reverse()
+print(travel)
+
+#use sort() to output list in alphabetical order
+travel.sort()
+print(travel)
+
+#output list in reverse alphabetical order
+travel.reverse()
+print(travel)
